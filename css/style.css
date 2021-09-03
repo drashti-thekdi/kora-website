@@ -1,0 +1,900 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+   
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+html{
+    font-size: 15px;
+    scroll-behavior: smooth;
+    
+}
+
+
+.big-wrapper{
+    width: 100%;
+    height: 900px;
+    background-image: url(../images/header-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    overflow: hidden;
+}
+
+#my-nevigation{
+    width: 100%;
+    /* padding-top: 0.5rem;
+    padding-bottom: 0.5rem; */
+    border-bottom: 1px solid #e3e8ec;
+    background:none;
+    border: 0;
+    z-index: 2;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    transition: all 0.2s;
+ 
+}
+
+
+.navbar-brand img{
+
+    width: 40%;
+
+}
+
+#my-nevigation a{
+    color: #1e266d;
+    font-size: 1.5rem;
+    font-weight:600;
+    opacity: 0.8;
+    transition:all .2s;
+}
+
+#my-nevigation .active a{
+    color: #ff6c02;
+    background: none;
+}
+
+#my-nevigation li a:hover{
+    color: #ff6c02;
+}
+#my-nevigation .navbar-toggle .icon-bar{
+    padding: 1.5px;
+}
+
+
+.dropdown-menu li{
+
+     margin: 10px;
+     border-bottom: 1px solid rgb(224, 223, 223);
+     padding-bottom: 5px;
+}
+.dropdown-menu .noborder{
+    border: none;
+}
+ul .dropdown .dropdown-menu{
+    transition:0.4s linear;
+}
+ul .dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.btnblue{
+    border: 1px solid #1e266d;
+    background-color: #1e266d;
+    color: #fff;
+    width: 140px;
+    height: 38px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all .2s;
+    cursor: pointer;
+}
+.btnblue:hover{
+    background-color: #fff;
+    color: #1e266d;
+    border: 1px solid #1e266d;
+}
+
+
+/* banner starts */
+
+.banner{
+      max-width: 100%;
+      margin: 0 auto;
+      position: relative;
+      top:110px;
+      left: 10px;
+     
+}
+
+.text-area{
+    position: relative;
+    top: 100px;
+   
+}
+
+.text-area h1{
+    color: #1e266d;
+    font-weight: 700;
+    font-size: 5.5rem;
+    margin-bottom: 2rem;
+}
+
+.text-area p{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.btnorange{
+     width: 180px;
+     height: 55px;
+     color: #fff;
+     background-color: #ff6c02;
+     font-weight: 600;
+     font-family: 'Open Sans',sans-serif;
+     border: 1px solid #ff6c02;
+     padding: 10px;
+     border-radius: 50px;
+     transition:all 0.2s;
+     margin-right: 10px;
+}
+
+.btnorange:hover{
+    background-color: transparent;
+    color: #ff6c02;
+}
+
+.btnlight{
+    width: 140px;
+    height: 55px;
+    color:#ff6c02;
+    background-color: transparent;
+    border: 1px solid #ff6c02;
+    font-weight: 600;
+    font-family: 'Open Sans',sans-serif;
+    border: 1px solid #ff6c02;
+    padding: 10px;
+    border-radius: 50px;
+    transition:all 0.2s;
+}
+
+.btnlight:hover{
+    background-color:#ff6c02;
+    color: #ffffff;
+}
+
+ .banner img{
+    width: 100%;
+    margin-left:6%;
+    overflow: hidden;
+    z-index: 999999;
+    padding-top: 5rem;
+} 
+
+/* second part starts */
+
+.secondpart{
+    margin-top: 10rem;
+}
+
+.secondpart .brands h3{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.owl-one{
+    padding-top:10px;
+    margin-bottom: 60px;
+}
+.owl-one .item img{
+    padding: 5%;
+}
+
+
+/* introduction section starts */
+.introduction{
+    margin-bottom: 15rem;
+}
+.secondpart .introduction img{
+    width: 90%;
+}
+
+.introduction .text-area h2{
+    font-size: 3rem;
+    line-height: 4rem;
+    color: #1e266d;
+    font-weight: 700;
+    text-align: left;
+}
+
+.introduction .text-area p{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.introduction .btn1{
+    width: 130px;
+    height: 50px;
+}
+
+
+/* blue wrapper starts */
+
+.blue-wrapper{
+    width: 100%;
+    background-color: #040470;
+    padding: 10% 0 20% 0;
+    color: #fff;
+}
+
+.blue-wrapper h2{
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+.para{
+    
+    font-weight: 200;
+    font-size: 1.6rem;
+    margin: 0 26% 0 26%;
+    line-height: 3rem;
+    opacity: 0.8;
+    font-family: 'Open Sans',sans-serif;
+}
+
+
+.three-section{
+    padding-top: 8rem;
+    width: 100%;
+}
+
+.card-icon{
+    padding:0 5% 0 5%;
+}
+
+.card-icon .fa{
+    font-size: 3rem;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    background-color: #3232a0;
+    text-align: center;
+    padding-top: 20px;
+    color: #ff6c02;
+}
+.add-border{
+   border-left: 1px solid #ff6c02;
+   padding-left: 3rem;
+}
+
+.card-icon h3{
+    padding-left: 3rem;
+    font-weight: 500;
+    line-height: 3.5rem;
+}
+
+.card-icon p{
+    padding-left: 3rem;
+    font-size: 1.6rem;
+    opacity: 0.8;
+    line-height: 2.8rem;
+}
+
+.card-icon a{
+    padding-left: 3rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.card-icon a:hover{
+   
+    color: #fff;
+  text-decoration: none;
+}
+
+.card-icon span{
+     font-size: 2rem;
+}
+ 
+
+/* info section starts */
+.basic-2{
+    background-image: url(../images/details-1-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 15rem;
+
+}
+
+.info-section{
+    padding-bottom: 15rem;
+   
+}
+.info-section .intro{
+    margin-bottom: 15rem;
+}
+
+.intro h1{
+  
+   color:#1e266d;
+   font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 4.5rem;
+   
+}
+
+.intro p{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.1rem;
+}
+.two-section  .text-container{
+    padding-top: 10rem;
+}
+.text-container .title{
+     color: #ff6c02;
+     width: 80px;
+     height: 30px;
+     background-color: #fff0e2;
+     font-weight: 500;
+      text-align: center;
+      padding-top: 10px;
+    line-height: 1.125rem;
+    margin-bottom: 0.75rem;
+    border-radius: 20px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.text-container h2{
+    font-family: 'Open Sans',sans-serif;
+    color: #1e266d;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 2.625rem;
+    letter-spacing: -0.4px;
+    margin-bottom: 3rem;
+}
+
+.text-container p{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    padding-right: 3rem;
+}
+
+.btn3{
+    width: 140px;
+    height: 50px;
+    margin-top: 3rem;
+}
+
+.text-container .fa{
+     font-size: 0.8rem;
+}
+
+.change{
+    margin-top: 2rem;
+}
+
+
+.basic-3{
+    background-image: url(../images/details-3-background.png);
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+}
+
+
+/* blue-wrapper 2 starts */
+.testimonial .owl-two{
+    padding-top:7rem;
+}
+.owl-two .item{
+    padding: 50px 40px 130px 40px;
+    background-color: #fff;
+    color: grey;
+    border-radius: 20px;
+}
+
+.owl-two .item p{
+    font-style: italic;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #515867;
+    font-weight: 400;
+}
+
+.owl-two .item h3{
+    color: #222222;
+    font-weight: 700;
+}
+
+.owl-two .item h4{
+    color: #515867;
+    font-size: 1.5rem;
+}
+
+.owl-two .owl-nav{
+    color: #fff;
+    display: inline-block;
+    font-size: 10rem;
+    height: 60px;
+    text-align: center;
+    margin-top: -30px;
+    width: 22%;
+    transition: 0.3s;
+}
+
+
+
+.owl-prev, .owl-next{
+    position: absolute;
+    background: none !important;
+}
+.owl-prev{
+    left: -5%;
+    top: 30%;
+  
+}
+
+.owl-next{
+    right: -5%;
+    top: 30%;
+   
+}
+
+/* subscribe section starts here */
+.subscribe .text-area h2{
+    padding-right:70px;
+    font-size: 3rem;
+    line-height: 4rem;
+    color: #1e266d;
+    font-weight: 700;
+}
+.subscribe .para{
+    font-size: 1.6rem;
+    padding-bottom:12rem;
+}
+
+.footer{
+    margin-bottom: 15rem;
+}
+
+ input{
+ 
+     position: relative;
+     display: inline-block;
+     font-size: 20px;
+     box-sizing: border-box;
+     transition: .5s;
+     width: 500px;
+  
+} 
+input[type="email"]{
+      
+    background: #fff;
+    width: 340px;
+    height: 50px;
+    border: 1px solid rgb(212, 209, 209);
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+input[type="submit"]
+{
+    position: relative;
+    left: -5px;
+    border-radius: 0 25px 25px 0;
+    width: 120px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background:#ff6c02;
+    color: #fff;
+    transition: all .2s;
+}
+
+input[type="submit"]:hover{
+    color: #ff6c02;
+    background: #fff;
+    border: 1px solid #ff6c02;
+}
+
+.footer2{
+   
+    padding-top: 5.5rem;
+    padding-bottom: 3rem;
+    background-color: #f9f9f9;
+}
+
+.footer2 h5{
+
+    color: #515867;
+    font-weight: 700;
+    font-size: 1.7rem;
+    line-height: 1.5rem;
+}
+
+.footer2 p{
+    color: #515867;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+
+.footer2 .fa{
+
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    color: #515867;
+    cursor: pointer;
+}
+
+.footer2 .fa:hover{
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background-color: #515867;
+    border-radius: 50%;
+}
+
+.footer2 .social a{
+    text-align: right;
+    color: #515867;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.last p{
+    margin-top: 3rem;
+    text-align:left;
+    color: orangered;
+}
+
+
+@media only screen and (max-width:990px){
+    .banner img{
+        margin-left:0;
+        width: 100%;
+        padding-top: 0;
+        padding: 10%;
+   } 
+
+   .text-area{
+    position: relative;
+    top: 0;
+    text-align: center;
+   
+}
+
+.text-area h1{
+   
+    font-size: 4.5rem;
+   
+}
+
+.text-area p{
+     padding: 0 5rem 0 5rem;
+     font-size: 2rem;
+}
+
+.secondpart{
+    margin-top: 4rem;
+}
+
+.secondpart .brands h3{
+     padding:0 5rem 2rem 5rem;
+}
+
+.owl-one .item img{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.introduction{
+    margin-bottom: 10rem;
+    padding: 8%;
+}
+.secondpart .introduction img{
+    width: 100%;
+}
+
+.introduction .text-area h2{
+    padding-right:5rem;
+    padding-top: 4rem;
+  
+}
+
+.introduction .text-area p{
+    padding: 0 0 0 0;
+}
+
+.introduction .text-area{
+    text-align: left;
+}
+.blue-wrapper h2{
+ 
+    font-size: 3rem;
+   
+}
+.three-section{
+    padding-top: 1rem;
+    
+}
+
+.para{
+    
+    margin: 0 10% 0 10%;
+   
+}
+.card-icon{
+    padding:10% 5% 0 5%
+}
+
+
+.info-section .intro{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.intro h1{
+   font-size: 3rem;
+}
+.two-section  .text-container{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+}
+.two-section  .img-container{
+  padding-left: 5rem;
+    padding-right: 5rem;
+}
+.testimonial .para{
+    
+    margin: 0 8% 0 8%;
+   
+}
+
+.testimonial .owl-two{
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.owl-two .item{
+    padding: 50px 40px 150px 40px;
+}
+.owl-prev{
+    left: 1%;
+   
+  
+}
+
+.owl-next{
+    right: 1%;
+    
+   
+}  
+.big-wrapper{
+  
+    height: 1000px;
+  
+}  
+.subscribe{
+    margin-top: 10rem;
+}
+.subscribe .text-area h2{
+    padding-right:0;
+    font-size: 3rem;
+    text-align: center;
+}
+.subscribe .para{
+    margin: 0 0 0 0;
+    padding-bottom:5rem;
+}
+
+input{
+    width: 100%;
+ 
+} 
+input[type="email"]{
+     
+    border-radius: 25px 25px 25px 25px;
+   width:80%;
+   margin-bottom: 3rem;
+ 
+}
+
+input[type="submit"]
+{
+    border-radius: 25px 25px 25px 25px;
+   width:80%;
+  
+}
+.footer2{
+   
+   padding-left: 5rem;
+   padding-right: 5rem;
+}
+
+.footer2 p{
+    margin-bottom: 5rem;
+    padding-right: 20rem;
+}
+
+.footer2 .fa{
+
+  margin-bottom: 3rem;
+}
+
+   
+ }
+@media only screen and (max-width:767px){
+   #mynavbar{
+       background-color: #fff;
+       height: 100vh;
+       transition:ease-in-out .1s;
+   }
+   .navbar-header{
+    background-color: #fff;
+    z-index: 3;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+
+}
+
+@media only screen and (max-width:570px){
+    .banner img{
+        padding: 5%;
+   }
+
+   
+
+
+.text-area p{
+     padding: 0 2rem 0 2rem;
+}
+
+.secondpart{
+    margin-top: 4rem;
+}
+
+.secondpart .brands h3{
+     padding:0 0 2rem 0;
+}
+
+.owl-one .item img{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.introduction{
+    margin-bottom: 10rem;
+    padding: 1%;
+}
+.para{
+    
+    margin: 0 1% 0 1%;
+   
+}
+.card-icon{
+    padding:10% 1% 0 1%
+}
+
+
+.info-section .intro{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.two-section  .text-container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.two-section  .img-container{
+  padding-left: 1rem;
+    padding-right: 1rem;
+}
+.testimonial .para{
+    
+    margin: 0 1% 0 1%;
+   
+}
+
+.testimonial .owl-two{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.owl-two .item{
+    padding: 50px 40px 180px 40px;
+}
+.owl-prev{
+    left: -3%;
+  
+}
+
+.owl-next{
+    right: -3%;
+   
+}  
+.big-wrapper{
+  
+    height: 900px;
+  
+}  
+
+
+.subscribe .para{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+input{
+    width: 100%;
+ 
+} 
+input[type="email"]{
+     
+   width:100%;
+  
+ 
+}
+
+input[type="submit"]
+{
+   width:100%;
+  
+}
+.footer2{
+   
+   padding-left: 1rem;
+   padding-right: 1rem;
+}
+
+.footer2 p{
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+.footer2 .fa{
+
+  margin-bottom: 3rem;
+}
+
+.navbar-brand img{
+
+    width: 80px;
+
+} 
+
+.text-area h1{
+    font-size: 4rem;
+}
+
+.text-area p{
+    font-size: 1.5rem;
+}
+.btnlight{
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.owl-two .item{
+    padding: 50px 10px 150px 20px;
+}
+
+}
+
+
